@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1E333C206F6EF400B855F9 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E333B206F6EF400B855F9 /* SignUPViewController.swift */; };
+		3A964ABD206E34A500264D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A964ABC206E34A500264D4D /* AppDelegate.swift */; };
+		3A964ABF206E34A500264D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A964ABE206E34A500264D4D /* ViewController.swift */; };
+		3A964AC2206E34A500264D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A964AC0206E34A500264D4D /* Main.storyboard */; };
+		3A964AC4206E34A500264D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A964AC3206E34A500264D4D /* Assets.xcassets */; };
+		3A964AC7206E34A500264D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A964AC5206E34A500264D4D /* LaunchScreen.storyboard */; };
+		3A964ACF206E43B100264D4D /* eplD3Ns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A964ACE206E43B000264D4D /* eplD3Ns.jpg */; };
+		3A964AD5206E4EC800264D4D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A964AD4206E4EC800264D4D /* LogInViewController.swift */; };
+		3A964AD7206E4EDD00264D4D /* AfterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A964AD6206E4EDD00264D4D /* AfterLoginViewController.swift */; };
+		3A964ADD206E6DB300264D4D /* newConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A964ADC206E6DB300264D4D /* newConnectionViewController.swift */; };
+		3A964AE1206E6DEF00264D4D /* ConnectionClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A964AE0206E6DEF00264D4D /* ConnectionClosureViewController.swift */; };
+		8A7256A744A0C1A5CA16D4FD /* Pods_Energion_Consumer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B010121EF7054085B70DD299 /* Pods_Energion_Consumer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1E333B206F6EF400B855F9 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		3A964AB9206E34A500264D4D /* Energion_Consumer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Energion_Consumer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A964ABC206E34A500264D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A964ABE206E34A500264D4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A964AC1206E34A500264D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A964AC3206E34A500264D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A964AC6206E34A500264D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A964AC8206E34A500264D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A964ACE206E43B000264D4D /* eplD3Ns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eplD3Ns.jpg; sourceTree = "<group>"; };
+		3A964AD4206E4EC800264D4D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3A964AD6206E4EDD00264D4D /* AfterLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterLoginViewController.swift; sourceTree = "<group>"; };
+		3A964ADC206E6DB300264D4D /* newConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newConnectionViewController.swift; sourceTree = "<group>"; };
+		3A964AE0206E6DEF00264D4D /* ConnectionClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionClosureViewController.swift; sourceTree = "<group>"; };
+		A6A31AF47EC8E2C39998A580 /* Pods-Energion_Consumer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energion_Consumer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Energion_Consumer/Pods-Energion_Consumer.debug.xcconfig"; sourceTree = "<group>"; };
+		B010121EF7054085B70DD299 /* Pods_Energion_Consumer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Energion_Consumer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB0284236514817C6E893EC /* Pods-Energion_Consumer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energion_Consumer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Energion_Consumer/Pods-Energion_Consumer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A964AB6206E34A500264D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7256A744A0C1A5CA16D4FD /* Pods_Energion_Consumer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A964AB0206E34A500264D4D = {
+			isa = PBXGroup;
+			children = (
+				3A964ABB206E34A500264D4D /* Energion_Consumer */,
+				3A964ABA206E34A500264D4D /* Products */,
+				76EE091C538D700812B42B43 /* Pods */,
+				BD027CB258C2BFD1ABCCDA92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A964ABA206E34A500264D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A964AB9206E34A500264D4D /* Energion_Consumer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A964ABB206E34A500264D4D /* Energion_Consumer */ = {
+			isa = PBXGroup;
+			children = (
+				3A964ABC206E34A500264D4D /* AppDelegate.swift */,
+				3A964ABE206E34A500264D4D /* ViewController.swift */,
+				3A964AD4206E4EC800264D4D /* LogInViewController.swift */,
+				3A964AD6206E4EDD00264D4D /* AfterLoginViewController.swift */,
+				3A964ADC206E6DB300264D4D /* newConnectionViewController.swift */,
+				3A964AE0206E6DEF00264D4D /* ConnectionClosureViewController.swift */,
+				3A1E333B206F6EF400B855F9 /* SignUPViewController.swift */,
+				3A964AC0206E34A500264D4D /* Main.storyboard */,
+				3A964AC3206E34A500264D4D /* Assets.xcassets */,
+				3A964ACE206E43B000264D4D /* eplD3Ns.jpg */,
+				3A964AC5206E34A500264D4D /* LaunchScreen.storyboard */,
+				3A964AC8206E34A500264D4D /* Info.plist */,
+			);
+			path = Energion_Consumer;
+			sourceTree = "<group>";
+		};
+		76EE091C538D700812B42B43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6A31AF47EC8E2C39998A580 /* Pods-Energion_Consumer.debug.xcconfig */,
+				EBB0284236514817C6E893EC /* Pods-Energion_Consumer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD027CB258C2BFD1ABCCDA92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B010121EF7054085B70DD299 /* Pods_Energion_Consumer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A964AB8206E34A500264D4D /* Energion_Consumer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A964ACB206E34A500264D4D /* Build configuration list for PBXNativeTarget "Energion_Consumer" */;
+			buildPhases = (
+				DECD7BFE5B9EB82F4E6C2908 /* [CP] Check Pods Manifest.lock */,
+				3A964AB5206E34A500264D4D /* Sources */,
+				3A964AB6206E34A500264D4D /* Frameworks */,
+				3A964AB7206E34A500264D4D /* Resources */,
+				F13FBC5A73CFFDDE704851D3 /* [CP] Embed Pods Frameworks */,
+				8C8404B4B9149AFF9CBF375D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Energion_Consumer;
+			productName = Energion_Consumer;
+			productReference = 3A964AB9206E34A500264D4D /* Energion_Consumer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A964AB1206E34A500264D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lakshay Chhabra";
+				TargetAttributes = {
+					3A964AB8206E34A500264D4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A964AB4206E34A500264D4D /* Build configuration list for PBXProject "Energion_Consumer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A964AB0206E34A500264D4D;
+			productRefGroup = 3A964ABA206E34A500264D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A964AB8206E34A500264D4D /* Energion_Consumer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A964AB7206E34A500264D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A964AC7206E34A500264D4D /* LaunchScreen.storyboard in Resources */,
+				3A964AC4206E34A500264D4D /* Assets.xcassets in Resources */,
+				3A964AC2206E34A500264D4D /* Main.storyboard in Resources */,
+				3A964ACF206E43B100264D4D /* eplD3Ns.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C8404B4B9149AFF9CBF375D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Energion_Consumer/Pods-Energion_Consumer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECD7BFE5B9EB82F4E6C2908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Energion_Consumer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13FBC5A73CFFDDE704851D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Energion_Consumer/Pods-Energion_Consumer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Energion_Consumer/Pods-Energion_Consumer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A964AB5206E34A500264D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A964ABF206E34A500264D4D /* ViewController.swift in Sources */,
+				3A964ABD206E34A500264D4D /* AppDelegate.swift in Sources */,
+				3A964AE1206E6DEF00264D4D /* ConnectionClosureViewController.swift in Sources */,
+				3A964AD5206E4EC800264D4D /* LogInViewController.swift in Sources */,
+				3A1E333C206F6EF400B855F9 /* SignUPViewController.swift in Sources */,
+				3A964AD7206E4EDD00264D4D /* AfterLoginViewController.swift in Sources */,
+				3A964ADD206E6DB300264D4D /* newConnectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A964AC0206E34A500264D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A964AC1206E34A500264D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A964AC5206E34A500264D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A964AC6206E34A500264D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A964AC9206E34A500264D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A964ACA206E34A500264D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A964ACC206E34A500264D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A31AF47EC8E2C39998A580 /* Pods-Energion_Consumer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCG4AQ3VDU;
+				INFOPLIST_FILE = Energion_Consumer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lakshay.Energion-Consumer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A964ACD206E34A500264D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB0284236514817C6E893EC /* Pods-Energion_Consumer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCG4AQ3VDU;
+				INFOPLIST_FILE = Energion_Consumer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lakshay.Energion-Consumer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A964AB4206E34A500264D4D /* Build configuration list for PBXProject "Energion_Consumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A964AC9206E34A500264D4D /* Debug */,
+				3A964ACA206E34A500264D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A964ACB206E34A500264D4D /* Build configuration list for PBXNativeTarget "Energion_Consumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A964ACC206E34A500264D4D /* Debug */,
+				3A964ACD206E34A500264D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A964AB1206E34A500264D4D /* Project object */;
+}
