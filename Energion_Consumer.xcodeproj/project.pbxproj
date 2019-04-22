@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A1E333C206F6EF400B855F9 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E333B206F6EF400B855F9 /* SignUPViewController.swift */; };
+		3A7F1750225D09D0002FE287 /* EstimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F174F225D09D0002FE287 /* EstimationViewController.swift */; };
 		3A8D6BFD206F902000FD9DC1 /* UpdateConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D6BFC206F902000FD9DC1 /* UpdateConnectionViewController.swift */; };
 		3A8D6BFF206F902B00FD9DC1 /* transferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D6BFE206F902B00FD9DC1 /* transferViewController.swift */; };
 		3A964ABD206E34A500264D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A964ABC206E34A500264D4D /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		3A1E333B206F6EF400B855F9 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		3A7F174F225D09D0002FE287 /* EstimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimationViewController.swift; sourceTree = "<group>"; };
 		3A8D6BFC206F902000FD9DC1 /* UpdateConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateConnectionViewController.swift; sourceTree = "<group>"; };
 		3A8D6BFE206F902B00FD9DC1 /* transferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transferViewController.swift; sourceTree = "<group>"; };
 		3A964AB9206E34A500264D4D /* Energion_Consumer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Energion_Consumer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 				3A8D6BFC206F902000FD9DC1 /* UpdateConnectionViewController.swift */,
 				3A8D6BFE206F902B00FD9DC1 /* transferViewController.swift */,
 				3A1E333B206F6EF400B855F9 /* SignUPViewController.swift */,
+				3A7F174F225D09D0002FE287 /* EstimationViewController.swift */,
 				3A964AC0206E34A500264D4D /* Main.storyboard */,
 				3A964AC3206E34A500264D4D /* Assets.xcassets */,
 				3A964ACE206E43B000264D4D /* eplD3Ns.jpg */,
@@ -247,6 +250,7 @@
 				3A964ABF206E34A500264D4D /* ViewController.swift in Sources */,
 				3A8D6BFD206F902000FD9DC1 /* UpdateConnectionViewController.swift in Sources */,
 				3A964ABD206E34A500264D4D /* AppDelegate.swift in Sources */,
+				3A7F1750225D09D0002FE287 /* EstimationViewController.swift in Sources */,
 				3A964AE1206E6DEF00264D4D /* ConnectionClosureViewController.swift in Sources */,
 				3A8D6BFF206F902B00FD9DC1 /* transferViewController.swift in Sources */,
 				3A964AD5206E4EC800264D4D /* LogInViewController.swift in Sources */,

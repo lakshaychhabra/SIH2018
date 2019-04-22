@@ -17,9 +17,9 @@ class ConnectionClosureViewController: UIViewController {
     @IBOutlet var lastBillAmount: UITextField!
     var email : JSON = []
     
-    let closeUrl = "https://api-egn.nvixion.tech/connection/closure"
-    let getUrl = "https://api-egn.nvixion.tech/auth/status"
-    let myconUrl = "https://api-egn.nvixion.tech/connection/mycon"
+    let closeUrl = "https://energion.appgroceries.com/api/connection/closure"
+    let getUrl = "https://energion.appgroceries.com/api/auth/status"
+    let myconUrl = "https://energion.appgroceries.com/api/connection/mycon"
     let headers : [String : String] = ["x-access-token" : LogInViewController.token]
    
     override func viewDidLoad() {
@@ -79,4 +79,5 @@ class ConnectionClosureViewController: UIViewController {
             lastBillAmount.text = ""
            }
        }
+    
 }

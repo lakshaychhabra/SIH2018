@@ -35,10 +35,7 @@ class LogInViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         
         self.present(alert, animated: true, completion: nil)
-        
-        
-        
-        
+     
     }
 
     @IBAction func loginButtonPressed(_ sender: Any) {
@@ -65,14 +62,14 @@ class LogInViewController: UIViewController {
             
             if let username = usernameTextField.text {
                 if let password = passwordTextField.text{
-                    let parameters : [String : String] = ["username" : username, "password" : password]
-                    let url = "https://api-egn.nvixion.tech/auth/login"
+                    let parameters : [String : String] = ["id" : username, "password" : password]
+                    let url = "https://energion.appgroceries.com/api/auth/login"
                    
                     Alamofire.request(url, method: .post, parameters: parameters, encoding: URLEncoding.httpBody).responseJSON { response in
                        
                         
                         print(response)
-                        if let data : JSON = JSON(response.result.value!) {
+                        if let data : JSON = JSON(response.result.value) {
                        // print(data)
                             self.output = data["token"]
                             

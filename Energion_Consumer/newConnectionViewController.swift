@@ -13,7 +13,7 @@ import SwiftyJSON
 
 class newConnectionViewController: UIViewController {
 
-    let url = "https://api-egn.nvixion.tech/connection/new"
+    let url = "https://energion.appgroceries.com/api/connection/new"
    
     
     @IBOutlet var connectionAddress: UITextField!

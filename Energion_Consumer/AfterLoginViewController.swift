@@ -12,7 +12,7 @@ import Alamofire
 import SwiftyJSON
 class AfterLoginViewController: UIViewController, CLLocationManagerDelegate
  {
-     let url = "https://api-egn.nvixion.tech/auth/logout"
+    let url = "https://energion.appgroceries.com/api/auth/logout"
      var locationManager = CLLocationManager()
      var userLocation = CLLocationCoordinate2D()
     
